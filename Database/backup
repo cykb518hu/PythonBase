@@ -1,0 +1,24 @@
+#from  MySqlConnecter import Connector
+
+#import calendar
+try:
+
+    dict = {'Name': 'Zara', 'Age': 7, 'Class': 'First'}
+    print(dict[0])
+    print(dict["Age"])
+    #cal=calendar.month(2020,5)
+    #print(cal)
+    #Connector.connect()
+    #path="C:\\Document\\Presentation\\Python\1.txt"
+    #fo=open(path,"a")
+    #print ("content : ", fo.read())
+    #fo.write("123213sddfsd")
+    fo.writelines("123213sddfsd")
+    fo.writelines("wqe")
+    fo.writelines("sas")
+    print ("文件名: ",fo.name)
+    print ("是否已关闭 : ", fo.closed)
+    print ("访问模式 : ", fo.mode)
+except Exception as err:
+    print(err)
+
